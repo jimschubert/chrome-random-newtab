@@ -24,6 +24,10 @@ chrome.tabs.update({ url: "chrome://apps", highlighted: true });
 
 By doing this, Chrome will set an address in the address bar. Extensions don't have permissions to highlight/remove/modify that address. Sorry. Use <kbd>CTRL</kbd>+<kbd>L</kbd> and start typing.
 
+## How do I modify the URLs?
+
+There's no interface to modify the URLs. Open `go.js` in a text editor and change the URLs manually. Make sure URLs are always wrapped in double quotes (`""`) and all but the last URL is followed by a comma.
+
 # NOTE
 
 Yes, I'm the [New Tab Redirect](https://github.com/jimschubert/NewTab-Redirect) developer. No, I will not accept donations for this extension. Nor will I entertain offers to sell this extension or integrate your code into this extension. I am explicitly *not* publishing this to the Web Store because I don't want to be hassled by 'buyers' or 'marketers'.  My only goal is to give people a way to make their lives easier.
