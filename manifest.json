@@ -1,0 +1,8 @@
+{
+  "name": "Random new tab page",
+  "description": "Override the new tab page with some random pages, for users who don't like the original or custom new tab pages",
+  "version": "1.0",
+  "incognito": "split",
+  "chrome_url_overrides": { "newtab": "rand.html" },
+  "manifest_version": 2
+}
